@@ -1,15 +1,6 @@
 WHO TO USE:
 
-<?php
-
-require __DIR__ . '/vendor/autoload.php';
-
-use Edumxk\BuscadorDeCursos\Buscador;
-use GuzzleHttp\Client;
-use Symfony\Component\DomCrawler\Crawler;
-
-
-$cliente = new client([ "verify" => false, "base_uri"  => 'https://www.alura.com.br/']);
+need guzzle client [ "verify" => false, "base_uri"  => 'https://www.alura.com.br/'];
 
 $url = 'cursos-online-programacao/php';
 
